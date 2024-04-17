@@ -1,4 +1,7 @@
+#! /usr/bin/env node
+ 
  import inquirer from "inquirer"
+import { nodeName } from "jquery";
 
  let todos = []; 
  let condition = true;
